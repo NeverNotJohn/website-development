@@ -1,0 +1,24 @@
+creating virtual environment:
+
+    conda create --name (insert name) django
+
+activating and deactivating:
+
+    activate (name)
+    deactivate (name)
+
+To activate this environment, use
+
+     $ conda activate firstEnv
+
+For list of ALL envs:
+
+    conda info --envs
+
+Check django vers
+
+    python -m django --version
+
+Creating a project:
+
+    django-admin startproject (name)

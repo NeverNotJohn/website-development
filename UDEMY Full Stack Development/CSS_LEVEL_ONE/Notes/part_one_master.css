@@ -1,0 +1,30 @@
+/* Comments woooot
+
+Basic format of CSS:
+
+selected tag{
+    property: value;
+}
+
+*/
+
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+h1{
+    color: blueviolet;
+}
+
+li{
+    color: darkorchid;
+}
+
+p{
+    color: bisque;
+}
+
+h4{
+    color: white;
+}

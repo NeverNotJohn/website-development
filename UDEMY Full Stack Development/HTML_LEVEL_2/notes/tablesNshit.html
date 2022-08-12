@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVEL TWO</title>
+</head>
+<body>
+    <h1> THIS IS PART 1 - TABLES: </h1>
+
+    <table border="3"> 
+        <thead> <!-- These are the table heads -->
+            <th> Number </th>
+            <th> Color </th>
+            <th> Country </th>
+        </thead>
+        <tr> <!-- This is the table row -->
+            <td>250</td>
+            <td>Red</td>
+            <td>Philippines</td>
+        </tr>
+        <tr> 
+            <td> This is another tr</td>
+            <td> FUCK</td>
+            <td> IDEK MAN</td>
+        </tr>
+    </table>
+
+    <h1> THIS IS PART 4 - FORMS </h1>
+
+    <form>
+        <H2> Log In </H2>
+        <h3> Input Email and Password Bitch: </h3>
+
+        <input type="email" name="useremail" value="Email HERE">
+        <input type="password" name="password" id="">
+        <input type="submit" value="Submit">
+        <!-- THE EMAIL TYPE CHECKS IF ITS AN ACTUALY EMAIL IN THE TEXT, name is basically a class, value is default value -->
+
+    </form>
+
+    <!--QUIRKY INPUT TYPES-->
+
+    <form>
+        <h2> These are the quirky Inputs! </h2>
+        <input type="color">
+        <h2> This is the default one </h2>
+        <input type="text">
+    </form>
+
+    <h1> THIS IS PART 5 - FORMS AND LABELS: </h1>
+
+    <form action="http://www.facebook.com" method="get">
+        <p> Enter text: </p>
+        <input type="text" name="userinput">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <!-- MAKING INPUT AND P ON SAME LINE -->
+        <label for="userinput">Enter Input:</label>
+
+        <input type="text" id="userinput" placeholder="Hello World" required> <!-- USE PLACEHOLDER UWU -->
+        <!--required means this box HAS TO BE required in order to submit-->
+    </form>
+
+    <h1> THIS IS PART 6 - FORMS AND SELECTION: </h1>
+
+    <h2> Get yo hotel feedback Bitch</h2>
+
+    <form method="get">
+        <h3> You illegal or what? </h3>
+
+        <label for="inUS"> Inside: </label>
+        <input type="radio" name="loc" id="inUS" value="inside">
+
+        <label for="outusa">Outside: </label>
+        <input type="radio" id="outusa" name="loc" value="outside">
+
+        <h3> How was ur stay bitch? </h3>
+        <select name="stars" id="">
+            <option value="Great">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+            <!-- value changes what the URL shows and thus provides organization for backend -->
+        </select>
+
+        <h3>Any Other Shit?</h3>
+
+        <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" name="" id="" value="SUBMIT">
+    </form>
+
+
+</body>
+</html>

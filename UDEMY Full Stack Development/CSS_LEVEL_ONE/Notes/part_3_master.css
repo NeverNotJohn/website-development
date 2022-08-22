@@ -1,0 +1,44 @@
+div{
+    /* THIS WILL CHANGE ALL DIVS */
+    color: darkblue;
+}
+
+/* Interesting... class has more priority over div*/
+
+/* Classes uses . prefix */
+.firstDiv{
+    color: blanchedalmond;
+}
+.secondDiv{
+    background-color: rgb(255, 0, 0);
+}
+
+/* ID's use # prefix */
+
+#singledout {
+    color: green;
+    text-decoration: line-through;
+}
+
+/* the asterick * is used to selected every element on the page*/
+
+*{
+    background-color: aquamarine;
+}
+
+/* Fancy SELECTORS */
+
+h3 + ul{
+    /* Selects every unordered list that is next to h3... adjacent siblings*/
+    border: 4px dotted palegoldenrod;
+}
+
+li a{
+    /* ALL ANCHOR TAGS INSIDE A LIST */
+    color: red;
+}
+
+li a[href="www.npr.org"] {
+    color: blue;
+    border: 5px solid orange;
+}
